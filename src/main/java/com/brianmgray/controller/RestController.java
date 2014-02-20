@@ -1,4 +1,4 @@
-package com.brianmgray.services;
+package com.brianmgray.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
