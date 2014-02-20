@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.brianmgray</groupId>
+    <artifactId>spring-jpa-knockout-archetype</artifactId>
+    <packaging>war</packaging>
+	<version>1.0-SNAPSHOT</version>
+    <name>Spring/JPA/Knockout.js Archetype</name>
+ 
+	<properties>
+		<java.version>1.6</java.version>
+    </properties>
+	
+    <dependencies>
+
+
+    </dependencies>
+
+    <build>
+		<plugins>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
+		</plugins>
+	</build>
+	
+	<!-- Meta information -->
+    <inceptionYear>2014</inceptionYear>
+	
+	<licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>http://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+   
+    <scm>
+        <connection>git@github.com:brianmgray/spring-jpa-knockout-archetype.git</connection>
+        <developerConnection>git@github.com:brianmgray/spring-jpa-knockout-archetype.git</developerConnection>
+        <url>https://github.com/brianmgray/spring-jpa-knockout-archetype</url>
+    </scm>
+
+</project>
