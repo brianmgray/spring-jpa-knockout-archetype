@@ -4,10 +4,10 @@
     <modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.brianmgray</groupId>
-    <artifactId>spring-jpa-knockout-archetype</artifactId>
+    <artifactId>spring-jpa-knockout</artifactId>
     <packaging>war</packaging>
 	<version>1.0-SNAPSHOT</version>
-    <name>Spring/JPA/Knockout.js Archetype</name>
+    <name>Spring/JPA/Knockout.js Archetype Sample Project</name>
  
 	<properties>
 		<java.version>1.6</java.version>
@@ -22,7 +22,6 @@
     </properties>
 	
     <dependencies>
-        <!-- Stuff to take out -->
         <dependency>
             <groupId>commons-lang</groupId>
             <artifactId>commons-lang</artifactId>
@@ -262,6 +261,14 @@
                 <configuration>
                     <source>${java.version}</source>
                     <target>${java.version}</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.1.1</version>
+                <configuration>
+                    <failOnMissingWebXml>false</failOnMissingWebXml>
                 </configuration>
             </plugin>
 		</plugins>
